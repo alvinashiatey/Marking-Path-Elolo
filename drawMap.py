@@ -53,9 +53,9 @@ def draw_line():
         x = map(random_locations[i]['longitude'], min_longitude, max_longitude, 0, 1)
         y = map(random_locations[i]['latitude'], min_latitude, max_latitude, 0, 1)
         if i == 0:
-            ax.plot(x, y, marker='o', markersize=10, color="black")
+            ax.plot(x, y, marker='o', markersize=5, color="black")
         else:
-            ax.plot(x, y, marker='o', markersize=10, color="black")
+            ax.plot(x, y, marker='o', markersize=5, color="black")
             ax.plot([x_old, x], [y_old, y], color="black")
         x_old, y_old = x, y
     plt.axis('off')

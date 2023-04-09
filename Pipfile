@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 drawbot = {git = "https://github.com/typemytype/drawbot"}
+matplotlib = "*"
 
 [dev-packages]
 
